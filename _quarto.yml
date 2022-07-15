@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Christian Million's Blog"
+  site-url: "https://blog.christianmillion.com"
+  navbar:
+    left:
+      - href: https://christianmillion.com/
+        text: Home
+      - href: https://christianmillion.com/resume
+        text: Resume
+      - href: https://blog.christianmillion.com
+        text: Blog
+  search:
+    location: navbar
+    type: textbox
+
+format:
+  html:
+    theme:
+        light: pulse
+        dark: solar
+    css: styles.css
+
+
+
